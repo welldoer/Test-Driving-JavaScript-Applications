@@ -1,0 +1,37 @@
+{
+  "name": "test-driving-javascript-applications",
+  "version": "1.0.0",
+  "description": "*参考书《JavaScript 测试驱动开发》*",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -a localhost -p 8080 -c1",
+    "test": "karma start --reporters clear-screen,dots --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/welldoer/Test-Driving-JavaScript-Applications.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/welldoer/Test-Driving-JavaScript-Applications/issues"
+  },
+  "homepage": "https://github.com/welldoer/Test-Driving-JavaScript-Applications#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "karma": "^3.1.1",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-clear-screen-reporter": "^1.0.0",
+    "karma-cli": "^1.0.1",
+    "karma-mocha": "^1.3.0",
+    "karma-sinon": "^1.0.5",
+    "karma-sinon-chai": "^2.0.2",
+    "mocha": "^5.2.0",
+    "sinon": "^7.1.1",
+    "sinon-chai": "^3.3.0"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
