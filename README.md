@@ -4,6 +4,8 @@
 
 ~~0. 准备 .gitignore~~
 
-1. 搭建 NodeJs 基本环境
+~~1. 搭建 NodeJs 基本环境~~
 
-2. 搭建 Travis CI 环境
+~~2. 搭建 Travis CI 环境~~
+
+3. 编写测试并通过

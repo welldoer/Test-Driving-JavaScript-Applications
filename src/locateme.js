@@ -3,3 +3,7 @@ var createURL = function( latitude, longitude ) {
     return '';
   return 'http://maps.google.com?q=' + latitude + ',' + longitude;
 }
+
+var setLocation = function( window, url ) {
+  window.location = url;
+};
